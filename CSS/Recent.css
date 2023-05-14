@@ -1,0 +1,197 @@
+.recent {
+	margin-top: 10vw;
+
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.row h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 39px;
+	/* identical to box height */
+	color: #000000;
+}
+
+.row .box {
+	width: 1029px;
+	height: 311px;
+	background: rgba(136, 88, 48, 0.8);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	margin-top: 44px;
+}
+
+.row .box .col-3 {
+	width: 50%;
+	height: auto;
+}
+
+.row .box .col-3 img {
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 20px;
+	/* position: absolute; */
+	width: 436px;
+	height: 276px;
+}
+
+.row .box .col-4 {
+	width: 50%;
+	text-align: justify;
+	color: white;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+.col-4 h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 39px;
+	/* identical to box height */
+	margin-bottom: 12px;
+
+	color: #FFFFFF;
+
+}
+
+.col-4 p {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin-right: 40px;
+}
+
+.col-4 a {
+	text-decoration: none;
+}
+
+.col-4 span {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FAFF00;
+}
+
+
+
+.card {
+	margin-top: 20px;
+	z-index: 0;
+}
+
+.card a {
+	position: relative;
+	color: #1449c3;
+	text-decoration: none;
+	font-size: 1em;
+
+}
+
+.card a:before,
+a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 1px;
+	top: 50%;
+	background: #1449c3;
+	border-radius: 4px;
+	transition: all 0.3s;
+}
+
+.card a:before {
+	width: 14px;
+	right: 110%;
+}
+
+.card a:after {
+	width: 0%;
+	left: 110%;
+}
+
+.card a:hover:before {
+	width: 0%;
+}
+
+.card a:hover:after {
+	width: 50px;
+}
+
+.card a span {
+	position: absolute;
+	display: block;
+	width: 60px;
+	height: 100%;
+	right: -85%;
+	top: -12px;
+}
+
+.card a span:before,
+a span:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 1.2px;
+	top: 0;
+	right: 0;
+	background: #1449c3;
+	border-radius: 4px;
+	transform: rotate(45deg);
+	transition: all 0.15s;
+	transition-delay: 0.25s;
+	opacity: 0;
+}
+
+.card a span:before {
+	top: 30px;
+	right: 0;
+	transform: rotate(45deg);
+}
+
+.card a span:after {
+	top: 14px;
+	right: 0;
+	transform: rotate(-45deg);
+}
+
+.card a:hover span:before {
+	width: 24px;
+	top: 14px;
+	right: -4px;
+	opacity: 1;
+}
+
+.card a:hover span:after {
+	width: 24px;
+	top: 30px;
+	right: -4px;
+	opacity: 1;
+}
+
+
+
+@media only screen and (max-width: 798px) {
+	.recent {
+		display: none;
+	}
+}

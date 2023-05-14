@@ -1,0 +1,67 @@
+.footer {
+	margin-top: 53px;
+	background: #EFEFEF;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	height: 333px;
+}
+
+/* Style for the contact info wrapper */
+.contact-info {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+/* Style for the contact info items */
+.contact-info p {
+	margin: 0;
+}
+
+/* Style for the email addresses */
+.contact-info a {
+	color: #555;
+	text-decoration: none;
+}
+
+/* Style for the email addresses on hover */
+.contact-info a:hover {
+	color: #000;
+}
+
+.column {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 200%;
+	letter-spacing: 0.025em;
+	color: #000000;
+	margin: 10px;
+}
+
+.bold {
+	font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+}
+
+
+@media only screen and (max-width: 798px) {
+	.footer {
+		padding: 0;
+	}
+	.footer h1 {
+		margin: 10px;
+		font-size: 1.5rem;
+	}
+	.contact-info {
+		margin: 10px;
+	}
+	.column {
+		font-size:0.5rem ;
+	}
+}

@@ -1,0 +1,256 @@
+.container {
+    display: flex;
+    /* align-items: flex-start; */
+    margin-top: 67px;
+}
+
+.about {
+    display: flex;
+    /* align-items: flex-start; */
+    margin-top: 67px;
+    padding: 20px;
+}
+
+.col-1 {
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.col-1 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 39px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.col-1 h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 10px;
+    /* left: 80px; */
+    /* top: 857px; */
+    background: #885830;
+}
+
+.col-1 p {
+    margin-top: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 171.02%;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+/* 2024 */
+
+.col-1 a {
+    text-decoration: none;
+}
+
+.col-1 a span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 175.02%;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #0888FF;
+}
+
+.col-1 a span:hover {
+    color: #045bae;
+}
+
+.col-5 img {
+    position: relative;
+    left: 50%;
+width: 369px;
+height: 472px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.56));
+} 
+/* 2024 */
+
+.col-1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: 171.02%;
+    margin-top: 15px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 171.02%;
+    /* or 27px */
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.col-2 {
+    width: 50%;
+    position: relative;
+    padding-left: auto;
+}
+
+.col-2 .image {
+    position: relative;
+    left: 25%;
+    width: 416px;
+    height: 553px;
+    margin-right: 80px;
+    background: rgba(217, 217, 217, 0.85);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.col-2 .image img {
+    position: absolute;
+    width: 347px;
+    height: 445px;
+    left: 35px;
+    top: 75px;
+    /* background: url(https://www.isabe.org/imgs/toulousecover.png); */
+}
+
+.col-2 .image h1 {
+    text-align: center;
+    /* margin-top: 16px; */
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.col-2 .image h1:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    margin-top: 10px;
+    margin-left: 40px;
+    /* left: 80px; */
+    /* top: 857px; */
+    background: #885830;
+
+}
+
+@media only screen and (max-width: 798px) {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        min-height: 90vh;
+    }
+
+    .about {
+        /* min-height: 100vh; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        min-height: 90vh;
+    }
+
+    .col-1 {
+        width: 80vw;
+        margin-left: 20px;
+        align-items: center;
+    }
+
+    .col-1 p {
+        font-size: 1rem;
+    }
+
+    .col-1 h2 {
+        font-size: 1.2rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    .col-2 .image {
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+
+    .col-2 .image h1::after {
+        top: 71px;
+    }
+
+    .col-2 .image img {
+        width: 80vw;
+        height: auto;
+        margin-left: auto;
+    }
+
+    .col-2 .image h1:after {
+        display: none;
+    }
+
+    .col-1 h1:after {
+        display: none;
+    }
+
+    .col-2 .image {
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .col-2 .image img {
+        left: 15px;
+        margin-top: 20px;
+        margin-top: 48px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+    }
+
+    .col-2 .image h1 {
+        padding-top: 20px;
+    }
+
+    .col-5 img {
+        left: 0;
+        margin-top: 20px;
+    }
+}
