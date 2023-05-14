@@ -1,6 +1,6 @@
 .location {
     margin-top: 101px;
-    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://www.nationsonline.org/gallery/France/Toulouse-Capitole.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(https://www.nationsonline.org/gallery/France/Toulouse-Capitole.jpg);
     height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,33 +21,33 @@
     font-size: 36px;
     line-height: 44px;
     /* identical to box height */
-    
+
     text-align: center;
-    
+
     color: #FFFFFF;
-    
+
 }
 
 .location h2 {
     font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
 
-text-align: center;
+    text-align: center;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .location p {
     font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }

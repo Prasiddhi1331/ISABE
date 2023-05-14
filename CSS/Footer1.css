@@ -46,7 +46,7 @@
 
 .bold {
 	font-family: 'Montserrat', sans-serif;
-font-weight: 600;
+	font-weight: 600;
 }
 
 
@@ -54,14 +54,17 @@ font-weight: 600;
 	.footer {
 		padding: 0;
 	}
+
 	.footer h1 {
 		margin: 10px;
 		font-size: 1.5rem;
 	}
+
 	.contact-info {
 		margin: 10px;
 	}
+
 	.column {
-		font-size:0.5rem ;
+		font-size: 0.5rem;
 	}
 }

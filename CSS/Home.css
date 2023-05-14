@@ -5,7 +5,7 @@
 }
 
 .slider {
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(https://www.isabe.org/themes/isabeOld/assets/images/ISABE_Home_Banner.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("https://www.isabe.org/themes/isabeOld/assets/images/ISABE_Home_Banner.jpg");
     height: 86vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 /* 2024 */
 
 .slider1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(https://pickyourtrail.com/blog/wp-content/uploads/2020/06/France.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("https://pickyourtrail.com/blog/wp-content/uploads/2020/06/France.jpeg");
     height: 86vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,26 +74,27 @@
 
 .title h1 {
     font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-text-align: center;
-color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
 }
 
 .title p {
     font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
 
-text-align: center;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
 }
+
 /* 2024 */
 
 @media only screen and (max-width: 798px) {

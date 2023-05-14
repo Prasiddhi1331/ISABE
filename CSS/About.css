@@ -77,10 +77,11 @@
 .col-5 img {
     position: relative;
     left: 50%;
-width: 369px;
-height: 472px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.56));
-} 
+    width: 369px;
+    height: 472px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.56));
+}
+
 /* 2024 */
 
 .col-1 h2 {

@@ -1,142 +1,146 @@
 .footer {
-	margin-top: 53px;
-    background: #EFEFEF;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    /* text-align: left; */
-    font: bold 16px sans-serif;
-    padding: 55px 100px 0px 58px;
-    height: 333px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  margin-top: 53px;
+  background: #EFEFEF;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  /* text-align: left; */
+  font: bold 16px sans-serif;
+  padding: 55px 100px 0px 58px;
+  height: 333px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .footer h1 {
-	font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-    /* display: flex; */
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: absolute;
-margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-left: 10px;
 
 }
 
 /* Style for the contact info wrapper */
 .contact-info {
-	display: flex;
-	flex-wrap: nowrap;
-	align-items: center;
-    margin-top: 39px;
-    width: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 39px;
+  width: 50%;
 }
 
 /* Style for the contact info items */
 .contact-info p {
-	margin: 0;
+  margin: 0;
 }
 
 /* Style for the email addresses */
 .contact-info a {
-	color: #555;
-	text-decoration: none;
+  color: #555;
+  text-decoration: none;
 }
 
 /* Style for the email addresses on hover */
 .contact-info a:hover {
-	color: #000;
+  color: #000;
 }
 
 .column {
-	font-family: 'Poppins', sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 200%;
-	letter-spacing: 0.025em;
-	color: #000000;
-	margin: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 200%;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin: 10px;
 }
 
 .bold {
-	font-family: 'Montserrat', sans-serif;
-font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .get-seat {
-    text-align: right;
-    /* width: 50%; */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    /* margin-left: 30%; */
-  }
-  
-  .get-seat h1 {
-    margin-top: 0;
-	font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
+  text-align: right;
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  /* margin-left: 30%; */
+}
 
-color: #000000;
-  }
-  .get-seat p {
-	font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-/* line-height: 84px; */
-margin-top: 25px;
-text-align: center;
-color: #000000;
-  } 
-  
-  button {
-	margin-top: 25px;
-    background: #7B1113;
-border-radius: 8px;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-	font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
+.get-seat h1 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
 
-color: #FFFFFF;
+  color: #000000;
+}
 
-  }
-  
-  button:hover {
-    background-color: #971a1c;
-  }
+.get-seat p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  /* line-height: 84px; */
+  margin-top: 25px;
+  text-align: center;
+  color: #000000;
+}
+
+button {
+  margin-top: 25px;
+  background: #7B1113;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+
+}
+
+button:hover {
+  background-color: #971a1c;
+}
 
 
 @media only screen and (max-width: 798px) {
-	.footer {
-		display: block;
-		padding: 0;
-	}
-	.footer h1 {
-		position: relative;
-		top: 20px;
-	}
-	.contact-info {
-		margin-top: 25px;
-	}
-	button {
-		margin-bottom: 20px;
-	}
+  .footer {
+    display: block;
+    padding: 0;
+  }
+
+  .footer h1 {
+    position: relative;
+    top: 20px;
+  }
+
+  .contact-info {
+    margin-top: 25px;
+  }
+
+  button {
+    margin-bottom: 20px;
+  }
 }
