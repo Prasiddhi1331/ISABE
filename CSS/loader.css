@@ -1,0 +1,15 @@
+.js div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    
+   
+    background: #ffffff url('https://images.squarespace-cdn.com/content/v1/5c4a3053b98a78bea1e90622/1575486969836-DQKSYYW7F60712AGPFKV/loader.gif') no-repeat center center;
+  }
+
+
+  

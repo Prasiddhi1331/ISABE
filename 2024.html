@@ -8,6 +8,7 @@
     <link rel="icon" href="./Images/ISABE.png" type="image/icon type">
     <title> ISABE 2024 - 26th ISABE Conference </title>
     <!-- css -->
+    <link rel="stylesheet" href="./CSS/loader.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -25,6 +26,7 @@
     <link rel="stylesheet" href="./CSS/Footer2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- js -->
+    <script src="./JS/loader.js" defer></script>
     <script src="./JS/Nav.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -32,56 +34,57 @@
 </head>
 
 <body>
-   <!-- navbar -->
-   <section class="navigation">
-    <nav>
-        <div class="logo">
-          <img src="./Images/ISABE.png" alt="Logo">
-        </div>
-        <input type="checkbox" id="toggle" class="toggle">
-        <label for="toggle" class="toggle-btn"></label>
-        <ul class="nav-links">
-          <li><a href="./index.html">Home</a></li>
-          <li class="dropdown">
-            <a href="#">ISABE 2024</a>
-            <div class="dropdown-content">
-              <a href="#">Invitation</a>
-              <a href="#">Team</a>
-              <a href="#">Venue</a>
-              <a href="#">Invited speakers</a>
-              <a href="#">Accommodation</a>
-              <a href="#">Accompanying person program</a>
-              <a href="#">Visa support</a>
-              <a href="#">Paper submission</a>
-              <a href="#">Gallery</a>
-              <a href="#">Social events</a>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="#">Program</a>
-            <div class="dropdown-content">
-              <a href="#">Download Initial Call for Papers ISABE 2024 PDF</a>
-              <a href="#">Download ISABE 2024 Manuscript Template</a>
-              <a href="#">Technical Program PDF</a>
-              <a href="#">Technical Tour</a>
-              <a href="#">Speaker Instructions</a>
-              <a href="#">Sponsorship Pack</a>
-            </div>
-          </li>
-          
-          <li><a href="#">Education</a></li>
-          <li><a href="#">Paper Submission</a></li>
-          <li><a href="#">Registration</a></li>
-          <li><a href="#">Sign In</a></li>
-        </ul>
-      </nav>
+    <!-- loader -->
+    <div id="preloader"></div>
 
+    <!-- navbar -->
+    <section class="navigation">
+        <nav>
+            <div class="logo">
+                <img src="./Images/ISABE.png" alt="Logo">
+            </div>
+            <input type="checkbox" id="toggle" class="toggle">
+            <label for="toggle" class="toggle-btn"></label>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">ISABE 2024</a>
+                    <div class="dropdown-content">
+                        <a href="#">Invitation</a>
+                        <a href="#">Team</a>
+                        <a href="#">Venue</a>
+                        <a href="#">Invited speakers</a>
+                        <a href="#">Accommodation</a>
+                        <a href="#">Accompanying person program</a>
+                        <a href="#">Visa support</a>
+                        <a href="#">Paper submission</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Social events</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Program</a>
+                    <div class="dropdown-content">
+                        <a href="#">Download Initial Call for Papers ISABE 2024 PDF</a>
+                        <a href="#">Download ISABE 2024 Manuscript Template</a>
+                        <a href="#">Technical Program PDF</a>
+                        <a href="#">Technical Tour</a>
+                        <a href="#">Speaker Instructions</a>
+                        <a href="#">Sponsorship Pack</a>
+                    </div>
+                </li>
 
-</section>
-<!-- navbar -->
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Paper Submission</a></li>
+                <li><a href="#">Registration</a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!-- navbar -->
 
     <!-- Hero_section -->
-    <section class="slider1">
+    <section class="carousel1">
         <h1> ISABE-2024 @ Toulouse, France </h1>
         <p>26<sup>th</sup> Conference of the International Society for Air Breathing Engines</p>
     </section>
@@ -139,7 +142,7 @@
 
 
     <!-- Footer -->
-    <div class="footer">
+    <div class="footer" id="contact">
         <h1>Contact Info</h1>
         <div class="contact-info">
 
@@ -163,12 +166,25 @@
         </div>
         <div class="get-seat">
             <h1>GET YOUR SEAT!</h1>
+            <h2>ISABE 2024</h2>
             <p>
                 Book your place before it's too late. We provide variety of ticket options</p>
             <button>Register Now</button>
+
+            <div class="footer-social-icons">
+                <h4 class="_14">Follow us on</h4>
+                <ul class="social-icons">
+                    <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+
+                </ul>
+            </div>
+
         </div>
     </div>
-
 
 
 </body>

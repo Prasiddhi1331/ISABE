@@ -1,16 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 .footer {
   margin-top: 53px;
-  background: #EFEFEF;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  width: 100%;
-  /* text-align: left; */
-  font: bold 16px sans-serif;
-  padding: 55px 100px 0px 58px;
-  height: 333px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+    background: #EFEFEF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    /* text-align: left; */
+    font: bold 16px sans-serif;
+    padding: 55px 100px 0px 58px;
+    /* height: 333px; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    flex-direction: row;
+
 }
 
 .footer h1 {
@@ -70,17 +75,27 @@
 }
 
 .get-seat {
-  text-align: right;
+  /* text-align: right; */
   /* width: 50%; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  /* margin-left: 30%; */
+  margin-left: 15%;
 }
 
 .get-seat h1 {
   margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.get-seat h2 {
+  margin-top: 25px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -96,34 +111,153 @@
   font-weight: 600;
   font-size: 15px;
   /* line-height: 84px; */
-  margin-top: 25px;
+  /* margin-top: 25px; */
   text-align: center;
   color: #000000;
 }
 
-button {
-  margin-top: 25px;
+.get-seat button {
   background: #7B1113;
-  border-radius: 8px;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: #FFFFFF;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    /* padding: 10px 20px; */
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 16px; */
+    height: 5vh;
+    /* line-height: 19px; */
+    color: #FFFFFF;
+margin-bottom: 30px;
+margin-top: 10px;
 
 }
 
-button:hover {
+.get-seat button:hover {
   background-color: #971a1c;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p > a:hover{
+  color: #d9d9d9;
+  text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin:  1% 0 1% 0;
+}
+._12 {
+  font-size: 1.2em;
+}
+._14 {
+  font-size: 1.4em;
+}
+ul {
+  padding:0;
+  list-style: none;
+}
+.footer-social-icons {
+  /* width: 350px; */
+  display:block;
+  margin: 0 auto;
+}
+.social-icon {
+  color: #fff;
+}
+ul.social-icons {
+  margin-top: 10px;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+.fa-twitter {
+  padding:10px 12px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+.fa-instagram {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-instagram:hover {
+  background-color: #d62976 ;
+}
+.fa-youtube {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-youtube:hover {
+  background-color: #e64a41;
+}
+.fa-linkedin {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
+.fa-github {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-github:hover {
+  background-color: #5a32a3;
+}
 
 @media only screen and (max-width: 798px) {
   .footer {
@@ -140,8 +274,11 @@ button:hover {
     margin-top: 25px;
   }
 
-  button {
+  .get-seat {
+    margin-left: 0;
+  }
+  .get-seat button {
     margin-bottom: 20px;
-    padding: 0;
+    /* padding: 0; */
   }
 }

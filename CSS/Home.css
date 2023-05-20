@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.slider {
+.carousel {
     background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("https://www.isabe.org/themes/isabeOld/assets/images/ISABE_Home_Banner.jpg");
     height: 86vh;
     background-position: center;
@@ -15,7 +15,7 @@
     justify-content: center;
 }
 
-.slider h1 {
+.carousel h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -27,7 +27,7 @@
 
 /* 2024 */
 
-.slider1 {
+.carousel1 {
     background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("https://pickyourtrail.com/blog/wp-content/uploads/2020/06/France.jpeg");
     height: 86vh;
     background-position: center;
@@ -42,7 +42,7 @@
     align-content: center;
 }
 
-.slider1 h1 {
+.carousel1 h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -52,7 +52,7 @@
     color: #FFFFFF;
 }
 
-.slider1 p {
+.carousel1 p {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -98,11 +98,11 @@
 /* 2024 */
 
 @media only screen and (max-width: 798px) {
-    .slider h1 {
+    .carousel h1 {
         font-size: 1.9rem;
     }
 
-    .slider1 h1 {
+    .carousel1 h1 {
         font-size: 2rem;
     }
 }
