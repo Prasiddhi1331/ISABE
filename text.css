@@ -94,7 +94,7 @@ nav {
   transform: translateY(4px);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .nav-links {
     display: none;
   }
