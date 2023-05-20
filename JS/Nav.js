@@ -13,7 +13,7 @@
     });
     // Toggle open and close nav styles on click
     $('.toggle-btn').click(function () {
-      $('nav ul').slideToggle();
+      $('nav').hide().toggle();
     });
     // Hamburger to X toggle
     $('.toggle-btn').on('click', function () {
