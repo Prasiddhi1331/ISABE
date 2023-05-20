@@ -16,7 +16,8 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./CSS/Home.css">
-    <link rel="stylesheet" href="./CSS/Nav.css">
+    <!-- <link rel="stylesheet" href="./CSS/Nav.css"> -->
+    <link rel="stylesheet" type="text/css" href="text.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS/About.css">
     <link rel="stylesheet" href="./CSS/Location.css">
@@ -31,97 +32,53 @@
 </head>
 
 <body>
-    <!-- navbar -->
-    <section class="navigation">
-        <div class="nav-container">
-            <div class="brand">
-                <a href="./index.html">
-                    <img src="./Images/ISABE.png" alt="logo">
-                </a>
-            </div>
-            <nav>
-                <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-                <ul class="nav-list">
-                    <li>
-                        <a href="./index.html"> Home </a>
-                    </li>
-                    <li>
-                        <a href="#"> ISABE 2024</a>
-                        <ul class="nav-dropdown">
-                            <li>
-                                <a href="#!">Invitation</a>
-                            </li>
-                            <li>
-                                <a href="#!">Team</a>
-                            </li>
-                            <li>
-                                <a href="#!">Venue</a>
-                            </li>
-                            <li>
-                                <a href="#!">Invited speakers</a>
-                            </li>
-                            <li>
-                                <a href="#!">Accommodation</a>
-                            </li>
-                            <li>
-                                <a href="#!">Accompanying person program</a>
-                            </li>
-                            <li>
-                                <a href="#!">Visa support</a>
-                            </li>
-                            <li>
-                                <a href="#!">Paper submission</a>
-                            </li>
-                            <li>
-                                <a href="#!">Gallery</a>
-                            </li>
-
-                            <li>
-                                <a href="#!">Social events</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#!">Program</a>
-                        <ul class="nav-dropdown">
-                            <li>
-                                <a href="#">Download Initial Call for Papers ISABE 2024 PDF</a>
-                            </li>
-                            <li>
-                                <a href="#!">Download ISABE 2024 Manuscript Template</a>
-                            </li>
-                            <li>
-                                <a href="#!">Technical Program PDF</a>
-                            </li>
-                            <li>
-                                <a href="#!">Technical Tour</a>
-                            </li>
-                            <li>
-                                <a href="#!">Speaker Instructions</a>
-                            </li>
-                            <li>
-                                <a href="#!">Sponsorship Pack</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#!">Education</a>
-                    </li>
-                    <li>
-                        <a href="#!">Paper Submission</a>
-
-                    </li>
-                    <li>
-                        <a href="#!">Registration</a>
-                    </li>
-                    <li>
-                        <a href="#!">Sign In</a>
-                    </li>
-                </ul>
-            </nav>
+   <!-- navbar -->
+   <section class="navigation">
+    <nav>
+        <div class="logo">
+          <img src="./Images/ISABE.png" alt="Logo">
         </div>
-    </section>
-    <!-- navbar -->
+        <input type="checkbox" id="toggle" class="toggle">
+        <label for="toggle" class="toggle-btn"></label>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">ISABE 2024</a>
+            <div class="dropdown-content">
+              <a href="#">Invitation</a>
+              <a href="#">Team</a>
+              <a href="#">Venue</a>
+              <a href="#">Invited speakers</a>
+              <a href="#">Accommodation</a>
+              <a href="#">Accompanying person program</a>
+              <a href="#">Visa support</a>
+              <a href="#">Paper submission</a>
+              <a href="#">Gallery</a>
+              <a href="#">Social events</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Program</a>
+            <div class="dropdown-content">
+              <a href="#">Download Initial Call for Papers ISABE 2024 PDF</a>
+              <a href="#">Download ISABE 2024 Manuscript Template</a>
+              <a href="#">Technical Program PDF</a>
+              <a href="#">Technical Tour</a>
+              <a href="#">Speaker Instructions</a>
+              <a href="#">Sponsorship Pack</a>
+            </div>
+          </li>
+          
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Paper Submission</a></li>
+          <li><a href="#">Registration</a></li>
+          <li><a href="#">Sign In</a></li>
+        </ul>
+      </nav>
+
+
+</section>
+<!-- navbar -->
 
     <!-- Hero_section -->
     <section class="slider1">

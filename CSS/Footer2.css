@@ -142,5 +142,6 @@ button:hover {
 
   button {
     margin-bottom: 20px;
+    padding: 0;
   }
 }
