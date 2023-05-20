@@ -265,6 +265,9 @@ left: 0;
         left: 35px;
         top: 79px;
     }
+    .col-5 img {
+        left: 0;
+    }
 }
 
 @media only screen 
