@@ -17,7 +17,7 @@
 }
 
 .member h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Marck Script', cursive;
     font-style: normal;
     font-weight: 600;
     font-size: 2rem;
@@ -26,6 +26,16 @@
     text-align: justify;
     letter-spacing: 0.05em;
     color: #ffffff;
+}
+.member h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 10px;
+    /* left: 80px; */
+    /* top: 857px; */
+    background: #885830;
 }
 
 .member p {

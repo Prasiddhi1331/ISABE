@@ -38,6 +38,9 @@ nav {
 .nav-links a:hover {
   color: #885830;
 }
+.nav-links a:active {
+  color: #885830;
+}
 
 /* Dropdown styles */
 .dropdown-content {
@@ -56,6 +59,18 @@ nav {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-bottom: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 /* Toggle button styles */
