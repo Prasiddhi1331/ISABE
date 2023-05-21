@@ -88,12 +88,9 @@
     font-size: 18px;
     line-height: 22px;
     /* identical to box height */
-
     text-align: center;
-
     color: #000000;
 }
-
 /* 2024 */
 
 @media only screen and (max-width: 798px) {
