@@ -312,4 +312,9 @@ and (max-device-width : 280px)  {
         height: 445px;
         /* margin-top: 0; */
     }
+
+    .col-5 img {
+        width: 270px;
+    left: 6px;
+    }
 }

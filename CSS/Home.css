@@ -62,6 +62,32 @@
     color: #FFFFFF;
 }
 
+.carousel1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.carousel1 button {
+    background: #7B1113;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    height: 5vh;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
 .title {
     display: flex;
     flex-direction: column;
@@ -92,6 +118,8 @@
     text-align: center;
     color: #000000;
 }
+
+
 /* 2024 */
 
 @media only screen and (max-width: 798px) {
