@@ -5,8 +5,8 @@
 }
 
 .carousel {
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("https://www.isabe.org/themes/isabeOld/assets/images/ISABE_Home_Banner.jpg");
-    height: 86vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("https://plus.unsplash.com/premium_photo-1661933077145-a377bba9bec9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

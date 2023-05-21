@@ -1,3 +1,43 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.header span {
+    font-family: 'Marck Script', cursive;
+    font-size: 100px;
+    font-weight: normal;
+    margin: 0 0 -55px;
+    color: #a96700;
+}
+
+.header h1 {
+    font-family: 'Source Code Pro', monospace;
+    color: #000;
+    font-size: 47px;
+    font-weight: bold;
+    letter-spacing: 9.4px;
+    margin: 0 0 15px;
+}
+
+
+.header h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 10px;
+    /* left: 80px; */
+    /* top: 857px; */
+    background: #885830;
+}
+
+
 .container {
     display: flex;
     /* align-items: flex-start; */
@@ -7,7 +47,7 @@
 .about {
     display: flex;
     /* align-items: flex-start; */
-    margin-top: 67px;
+    margin-top: 30px;
     padding: 20px;
 }
 
@@ -91,9 +131,9 @@
     font-size: 1.2rem;
     line-height: 171.02%;
     margin-top: 15px;
-    text-align: justify;
+    text-align: center;
     letter-spacing: 0.05em;
-    color: #000000;
+    color: #a96700;
 }
 
 ul {
