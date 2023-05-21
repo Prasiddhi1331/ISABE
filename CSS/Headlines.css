@@ -4,7 +4,7 @@ marquee {
     margin-top: 60px;
     font-weight: 600;
     position: fixed;
-    text-align: center;
+    /* text-align: center; */
     background-color: white;
     z-index: 999;
 }
