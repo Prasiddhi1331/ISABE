@@ -259,7 +259,8 @@
     }
 
     .header span {
-        font-size: 90px;
+        font-size: 80px;
+        margin: 0 0 -47px;
     }
 }
 
@@ -304,6 +305,7 @@ and (max-device-width : 720px) {
 and (max-device-width : 280px)  {
     .header span {
         font-size: 70px;
+        margin: 0 0 -47px;
     }
     .col-2 .image img {
         left: 8px;
