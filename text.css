@@ -13,6 +13,7 @@ nav {
   justify-content: space-between;
   padding: 0 50px;
   transition-duration: 100ms;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .logo img {
@@ -49,6 +50,7 @@ nav {
   background-color: #f8f8f8;
   padding: 10px;
   border-radius: 5px;
+  line-height: 2;
 }
 
 .dropdown-content a {

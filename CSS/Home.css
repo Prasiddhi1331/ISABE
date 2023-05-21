@@ -26,10 +26,9 @@
 }
 
 /* 2024 */
-
 .carousel1 {
     background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("https://pickyourtrail.com/blog/wp-content/uploads/2020/06/France.jpeg");
-    height: 86vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
